@@ -1,6 +1,8 @@
 node_modules
-package-lock.json
 dist
-# Ignore test-related files
-/coverage.data
-/coverage/
+coverage
+data
+!src/data
+!tests/data
+.vscode
+globalConfig.json
