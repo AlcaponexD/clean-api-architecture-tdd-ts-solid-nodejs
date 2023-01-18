@@ -4,6 +4,7 @@
         "module": "CommonJS",
         "target": "ES2019",
         "esModuleInterop": true, //Para usar o import e converter
-        "allowJs": true, //Permite .js ser compilado alem dos .ts
+        "allowJs": true, //Permite .js ser compilado alem dos .ts,
+        "strictNullChecks": true
     }
 }
