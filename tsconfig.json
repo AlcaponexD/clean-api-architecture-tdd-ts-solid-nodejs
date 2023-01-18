@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist", //diz pro ts aonde vai gerar o compilado que vamos usar no server
+        "module": "CommonJS",
+        "target": "ES2019",
+        "esModuleInterop": true, //Para usar o import e converter
+        "allowJs": true, //Permite .js ser compilado alem dos .ts
+    }
+}
